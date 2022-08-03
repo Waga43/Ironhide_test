@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Top Sec */
+
+.top-sec {
+    display: flex;
+    align-items: center;
+}
+
+.t-row {
+        float: left;
+        width: 50%;
+        padding: 10px;
+}
+
+
+
+/* End of top Sec */
+
+
+/* First Section CSS */
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #F1F1F1;
+}
+
+#top-img {
+    max-width: 100%;
+}
+.img-cont {
+    width: 50px;
+}
+
+/* End of first section CSS */
+
+
+/* Second Section */
+
+
+.image {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.image-caption {
+    text-align: center;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.gallery {
+    text-align: center;
+}
+
+/* End of Second section */
+
+
+/* Third Section */
+
+#section3 {
+    background-color: #F1F1F1;
+}
+
+
+/* Third Section End */
+
+/* Fourth section */
+
+.top-sec {
+    display: flex;
+}
+
+/* Footer Section */
+
+# footer-right {
+    display: flex;
+    align-content: flex-end;   
+}
+
+# footer-left {
+    
+    align-content: flex-start;
+}
+
+
+/* Footer section */
+
+footer {
+    background-color: #EDE6DB;
+}
+
+
+/* Footer section end */
+
+/* View more */
+
+.view-more {
+    border: 1px solid black;
+    padding: 2px 2px;
+    align: centre;
+}
+/* End view more */
